@@ -1,0 +1,40 @@
+/* Theme 1: Light Minimal */
+[data-theme='theme-1'] {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --accent-color: #1e90ff;
+  }
+  
+  /* Theme 2: Dark Modern */
+  [data-theme='theme-2'] {
+    --bg-color: #1e1e2f;
+    --text-color: #f0f0f0;
+    --accent-color: #ff4081;
+  }
+  
+  /* Theme 3: Retro */
+  [data-theme='theme-3'] {
+    --bg-color: #f5f1e9;
+    --text-color: #3a2c2c;
+    --accent-color: #e67e22;
+  }
+  
+  /* Apply theme styles globally */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input, select, textarea {
+    border: 1px solid var(--accent-color);
+    background: var(--bg-color);
+    color: var(--text-color);
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  strong {
+    color: var(--accent-color);
+  }
+  
